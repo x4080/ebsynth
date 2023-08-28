@@ -6,8 +6,8 @@ outputDir = "outputs"              # path to the input sequence PNGs
 fileFormat = "%04d"        # name of input files, e.g., %03d if files are named 001.png, 002.png
 fileExt = "png"            # extension of input files (without .), e.g., png, jpg
 keyframe = "keyframe"           # keyframe for style
-FIRST = 10                       # number of the first PNG file in the input folder
-LAST = 12                      # number of the last PNG file in the input folder
+FIRST = 1                       # number of the first PNG file in the input folder
+LAST = 2                      # number of the last PNG file in the input folder
 ####################################################
 
 firstFrame = FIRST
