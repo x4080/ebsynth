@@ -1,4 +1,4 @@
-# Center Block
+# End Block
 # ./bin/ebsynth -style result0001.png -guide source0001.png source0004.png -weight 2 -guide map.png map.png -weight 1 -output result0004.png
 ################ MAKE CHANGES HERE #################
 keyframeDir = "keyframes"              # path to the input sequence PNGs
