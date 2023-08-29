@@ -21,6 +21,7 @@ inputFiles = inputDir + "/" + fileFormat + "." + fileExt
 outputFiles = outputDir + "/" + fileFormat + "." + fileExt
 keyframeFile = keyframeDir + "/" + fileFormat + "." + fileExt
 
+print("cp %s %s"%(keyframeFile%(firstFrame),outputFiles%(firstFrame)))
 print("./bin/ebsynth -style %s -guide %s %s -weight 2 -guide map.png map.png -weight 1 -output %s"%(keyframeFile%(firstFrame),inputFiles%(firstFrame),inputFiles%(firstFrame-1),outputFiles%(firstFrame-1)))
 
 for frame in range(firstOutputFrame,lastFrame,frameStep):
